@@ -25,7 +25,7 @@ def main():
         for led in leds:
             if GPIO.input(sensorPin)==GPIO.HIGH:
                         GPIO.output(led, GPIO.HIGH)
-                        sleep(.25)
+                        sleep(.03)
                         GPIO.output(led, GPIO.LOW)
                         print ('led turned on >>>')
             else :

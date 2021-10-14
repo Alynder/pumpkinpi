@@ -14,8 +14,7 @@ def setup():
     GPIO.setup(ledPin1, GPIO.OUT)    # set ledPin to OUTPUT mode
     GPIO.setup(ledPin2, GPIO.OUT)    # set ledPin to OUTPUT mode
     GPIO.setup(sensorPin, GPIO.IN)  # set sensorPin to INPUT mode
-    GPIO.output(ledPin1, GPIO.LOW)
-    GPIO.output(ledPin2, GPIO.LOW)
+
     
  
 
